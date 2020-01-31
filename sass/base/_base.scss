@@ -1,0 +1,43 @@
+@import url("../../css/fonts.css");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  //This defines what 1rem is
+  font-size: 62.5%;
+
+  @include respond(tab-land) {
+    //1200px
+    font-size: 62.5%;
+  }
+
+  @include respond(tab-port) {
+    //900px
+    font-size: 60%;
+  }
+
+  @include respond(phone) {
+    //600px
+    font-size: 50%;
+  }
+
+  @include respond(big-desktop) {
+    //1800px
+    font-size: 80%;
+  }
+}
+body {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+/*
+::selection{
+    background: #f2f2f2f2;
+    color: #000;
+}
+*/
