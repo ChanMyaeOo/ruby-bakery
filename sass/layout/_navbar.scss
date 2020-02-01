@@ -1,4 +1,4 @@
-@import url("../../css/fonts.css");
+@import url('../../css/fonts.css');
 
 .d-flex {
   display: flex;
@@ -37,6 +37,7 @@
     border-radius: 2px;
     font-family: Pacifico, sans-serif;
     font-size: 2.5rem;
+    z-index: 5;
   }
 
   &__link {

@@ -60,9 +60,46 @@ body {
     background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
     border-radius: 2px;
     font-family: Pacifico, sans-serif;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    z-index: 5; }
   .navbar__link:link, .navbar__link:visited {
     text-decoration: none;
     color: #f2f2f2; }
   .navbar__link--social {
     margin-right: 1.2rem; }
+
+.carousel {
+  position: relative;
+  overflow: hidden; }
+  .carousel__slide {
+    display: flex; }
+  .carousel__box1 {
+    height: 80vh;
+    min-width: 100%;
+    background: blueviolet; }
+  .carousel__box2 {
+    height: 80vh;
+    min-width: 100%;
+    background: orangered; }
+  .carousel__box3 {
+    height: 80vh;
+    min-width: 100%;
+    background: greenyellow; }
+
+#carousel__prevBtn {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  z-index: 10;
+  cursor: pointer; }
+
+#carousel__nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  z-index: 10;
+  cursor: pointer; }

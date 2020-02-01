@@ -1,0 +1,43 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  &__slide {
+    display: flex;
+  }
+  &__box1 {
+    height: 80vh;
+    min-width: 100%;
+    background: blueviolet;
+  }
+
+  &__box2 {
+    height: 80vh;
+    min-width: 100%;
+    background: orangered;
+  }
+
+  &__box3 {
+    height: 80vh;
+    min-width: 100%;
+    background: greenyellow;
+  }
+}
+
+#carousel__prevBtn {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+}
+#carousel__nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+}

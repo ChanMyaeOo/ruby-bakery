@@ -1,5 +1,7 @@
-@import "./abstracts/mixins";
-@import "./abstracts/variables";
-@import "./base/base";
+@import './abstracts/mixins';
+@import './abstracts/variables';
+@import './base/base';
 
-@import "./layout/navbar";
+@import './layout/navbar';
+
+@import './pages/home';
