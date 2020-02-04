@@ -4,6 +4,10 @@ $default-font-size: 1.6rem;
 // COLOR
 $color-white: #f2f2f2;
 $brand-color: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
-
+$text-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$color-dark-grey: #464646;
 // BOX SHADOW
 $box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+
+// Background overlay
+$bg-overlay: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));

@@ -8,43 +8,36 @@
     height: 80vh;
     min-width: 100%;
     // background-image: url('../../img/baked.jpg');
-    background-image: linear-gradient(
-        135deg,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.7)
-      ),
-      url('../../img/baked.jpg');
-    // background-image: linear-gradient(
-    //     to top,
-    //     rgba(207, 217, 223, 0.3),
-    //     rgba(226, 235, 240, 0.4)
-    //   ),
-    //   url('../../img/baked.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: $bg-overlay, url('../../img/baked.jpg');
+    @include bg-img-pos;
+    @include dflex;
     flex-direction: column;
   }
 
   &__box2 {
     height: 80vh;
     min-width: 100%;
-    background-image: url('../../img/pic2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: $bg-overlay, url('../../img/breakfast.jpg');
+    @include bg-img-pos;
+    position: relative;
+
+    &__content {
+      position: absolute;
+      right: 10%;
+      bottom: 20%;
+      max-width: 30vw;
+      height: auto;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 2rem;
+      line-height: 1.5;
+    }
   }
 
   &__box3 {
     height: 80vh;
     min-width: 100%;
     background-image: url('../../img/pic3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    @include bg-img-pos;
   }
 }
 
