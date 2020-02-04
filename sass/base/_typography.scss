@@ -1,0 +1,21 @@
+.carousel {
+  &__box1 {
+    & h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $color-white;
+      letter-spacing: 2px;
+      line-height: 1.5;
+    }
+
+    & h2 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      letter-spacing: 3px;
+    }
+  }
+}
