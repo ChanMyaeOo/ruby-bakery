@@ -2,7 +2,7 @@
  * CAROUSEL SECTION
  */
 const carouselSlide = document.querySelector('.carousel__slide');
-const carouselBoxes = document.querySelectorAll('.carousel__slide div');
+const carouselBoxes = document.querySelectorAll('.carousel__slide > div');
 
 // Buttons
 const prevBtn = document.querySelector('#carousel__prevBtn');
