@@ -56,6 +56,21 @@ body {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   letter-spacing: 3px; }
 
+.carousel__box2__breakfast {
+  font-size: 3rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  position: absolute;
+  left: 15%;
+  bottom: 30%;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px; }
+  .carousel__box2__breakfast--span {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+
 .carousel__box2__content h3 {
   font-size: 2.4rem;
   -webkit-background-clip: text;
@@ -82,6 +97,49 @@ body {
   color: #7918f2; }
 
 .carousel__box2__content a:hover {
+  color: #464646; }
+
+.carousel__box3__wedcake {
+  font-size: 3rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20%;
+  bottom: 30%;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px; }
+  .carousel__box3__wedcake--span {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+
+.carousel__box3__content h3 {
+  font-size: 2.4rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+  .carousel__box3__content h3::after {
+    content: '';
+    background: #000;
+    display: block;
+    width: 35%;
+    height: 0.5rem;
+    transform: translateY(0.7rem); }
+
+.carousel__box3__content p {
+  font-size: 1.6rem;
+  color: #464646;
+  margin: 1.3rem 0 0.4rem 0; }
+
+.carousel__box3__content a:link, .carousel__box3__content a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7918f2; }
+
+.carousel__box3__content a:hover {
   color: #464646; }
 
 .btn {
@@ -167,10 +225,21 @@ body {
   .carousel__box3 {
     height: 80vh;
     min-width: 100%;
-    background-image: url("../../img/pic3.jpg");
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../../img/wedding-cake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; }
+    background-position: center center;
+    background-position-y: 15%;
+    position: relative; }
+    .carousel__box3__content {
+      position: absolute;
+      left: 10%;
+      bottom: 20%;
+      max-width: 30vw;
+      height: auto;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 2rem;
+      line-height: 1.5; }
 
 #carousel__prevBtn {
   position: absolute;

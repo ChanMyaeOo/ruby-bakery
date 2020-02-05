@@ -36,8 +36,21 @@
   &__box3 {
     height: 80vh;
     min-width: 100%;
-    background-image: url('../../img/pic3.jpg');
+    background-image: $bg-overlay, url('../../img/wedding-cake.jpg');
     @include bg-img-pos;
+    background-position-y: 15%;
+    position: relative;
+
+    &__content {
+      position: absolute;
+      left: 10%;
+      bottom: 20%;
+      max-width: 30vw;
+      height: auto;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 2rem;
+      line-height: 1.5;
+    }
   }
 }
 
